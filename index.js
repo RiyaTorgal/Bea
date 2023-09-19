@@ -13,6 +13,7 @@ const client = new Client({
 });
 
 const TOKEN = process.env.BOT_TOKEN;
+const ID = process.env.APPID;
 
 client.login(TOKEN);
 
@@ -40,7 +41,7 @@ client.on('messageCreate',(message) =>{
       return;
     }
     else{
-      fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=bad6deaca192f368f932c16198905280&units=metric`)
+      fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${ID}&units=metric`)
       .then(response => {
         return response.json()
       })
