@@ -41,7 +41,7 @@ client.on('messageCreate',(message) =>{
       return;
     }
     else{
-      fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${ID}&units=metric`)
+      fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName},in&appid=${ID}&units=metric`)
       .then(response => {
         return response.json()
       })
