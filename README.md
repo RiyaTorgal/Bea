@@ -5,7 +5,7 @@ Bea is a Discord Bot which provides the real-time weather information for specif
 
 Right now Bea only provides the weather information of India (IN)
 
-<img src="https://github.com/RiyaTorgal/Bea/assets/142211656/6a7d6eee-39f4-41b0-8315-b563f3109c6f" width="300" />
+<img src="https://github.com/RiyaTorgal/Bea/assets/142211656/6a7d6eee-39f4-41b0-8315-b563f3109c6f" width="250" />
 
 <h3>Features</h3>
 
